@@ -1,0 +1,476 @@
+@charset "utf-8";
+.nobg{background-color:transparent!important;}
+.noshow{ display: none;}
+.lightbluebg{background-color: #F3F7FF;}
+.padtb60{padding-top:60px; padding-bottom: 60px;}
+.padtb40{padding-top:40px; padding-bottom: 40px;}
+.padtb115{padding-top:115px; padding-bottom: 115px;}
+.padtb35{padding-top:35px; padding-bottom: 35px;}
+.padtop30{padding-top:30px;}
+.bluebg{background-color: #293D70;}
+.whitebox{background-color: #ffffff;}
+.padedwhitebox{background-color: #ffffff; padding: 15px;box-shadow: -20px 0px 30px rgba(0, 0, 0, 0.05);}
+
+.textlogo{background-color: #293D70; color: #ffffff; padding: 6px 25px;font-family: 'Playfair Display'; text-transform: uppercase; font-weight: 800;}
+.textlogo:hover{color: #ffffff;}
+.headpad{padding: 24px 0;}
+.navtext .nav-link{font-family: 'DM Sans';font-size: 16px; text-transform: uppercase; color: #777777; padding: 8px 25px!important;}
+.navtext .nav-link.active{color: #293D70;}
+.carouselindicatorsround [data-bs-target] {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+}
+.carouselindicatorsround .active {
+    opacity: 1;
+    background-color: #ffffff;
+}
+.blueheadingone{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+color: #293D70;
+padding-bottom: 20px;
+}
+.subtext{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #777777;
+width: 60%;
+text-align: center;
+float: none;
+margin: auto;
+}
+.subtextleft{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #777777;
+width: 60%;
+}
+.listinlineitem:not(:last-child) {
+    margin-right: 0;
+}
+.listinlineitem{padding:0 20px; width: 135px}
+.fatlist{padding-top:70px;}
+.fatname{
+font-family: 'DM Sans';
+font-size: 14px;
+}
+.fatlistimg{ float:left; width: 14%}
+.whiteheadingone{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+color: #ffffff;
+padding-bottom: 20px;
+}
+.subtextwhite{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #ffffff;
+}
+.viewallbtn{
+	color: #ffffff;
+	border-color: #ffffff;
+	border-radius:0;
+	width: 150px;
+}
+.viewallbtn:hover{
+	color: #ffffff;
+	border-color: #ffffff;
+	background-color: transparent;
+}
+.newshead{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #293D70;
+	padding:15px;
+}
+.newssubtext{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #777777;
+	padding:15px;
+}
+.readmore{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	color: #293D70;
+	padding:15px;
+	text-decoration: none;
+}
+.bridebox{
+	background: #293D70;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 26px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	width: 85px;
+	height:auto;
+	padding: 6px 0;
+	margin-bottom: 20px;
+}
+.groombox{
+	background: #4f4f4f;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 26px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	width: 85px;
+	height:auto;
+	padding: 6px 0;
+	margin-bottom: 20px;
+}
+.matrimonycode{
+	padding: 15px 0;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #293D70;
+}
+.matridetails{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	color: #777777;
+}
+.matrireadmore{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 26px;
+	display: flex;
+	align-items: center;
+	color: #293D70;
+	padding:15px 0;
+	text-decoration: none;
+}
+.viewallbtnblue{
+	color: #293D70;
+	border-color: #293D70;
+	border-radius:0;
+	width: 150px;
+}
+.viewallbtnblue:hover{
+	color: #293D70;
+	border-color: #293D70;
+	background-color: transparent;
+}
+.bluebanner{background-image: url("../images/bluebannerimage.png");}
+.bluebox{
+	background: #293D70;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 26px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	width: 130px;
+	height:auto;
+	padding: 6px 0;
+	margin-bottom: 20px;
+}
+.websitelist li{
+	padding-bottom: 10px; 
+	margin-bottom: 20px;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.websitelist li a{color: #ffffff; text-decoration: none;}
+.otherlist li{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #E9E9E9;
+}
+.otherlist li a{color: #E9E9E9; text-decoration: none;}
+.otherlistpad{padding-left:50px;}
+.rel-links li{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #777777;
+padding-bottom: 20px;
+}
+.rel-links li a{color: #777777; text-decoration: none;}
+.textlogofooter{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 26px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	border: 1.5px solid #FFFFFF;
+	width: 175px;
+}
+.footerhead{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-bottom: 30px;
+}
+.quicklinklist li{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #E9E9E9;
+padding: 5px 0;
+}
+.quicklinklist li a{color: #E9E9E9; text-decoration: none;}
+.quicklinklist li a:hover{color: #E9E9E9;}
+.contactinfo li{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #E9E9E9;
+padding-bottom: 40px;
+}
+.copyrighttext{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+text-align: center;
+color: #777777;
+}
+
+@media only screen and (max-width: 1200px){
+	.fatlistimg{ width:16%; margin-bottom: 15px;}
+	.navtext .nav-link{padding:8px 20px!important;}
+}
+@media only screen and (max-width: 992px){
+	.fatlistimg{ width:25%; margin-bottom: 15px;}
+}
+@media only screen and (max-width: 768px){
+	.padlr15{padding-left: 15px; padding-right: 15px;}
+	.newsboxmarbot15{ margin-bottom: 15px;}
+	.marbot15-768{margin-bottom: 15px;}
+	.padedwhitebox{margin-bottom: 15px;}
+	.fatlistimg{ width:50%; margin-bottom: 15px;}
+	.otherlistpad{padding-left:12px;}
+	.textlogofooter{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 576px){
+	.fatlistimg{ width:100%; margin-bottom: 15px;}
+	.padedwhitebox{margin: 0px;}
+}
+
+
+.table-th-bg{
+	background-color: #dde5f6;
+}
+.priestlisttable th:first-child {padding-left: 65px;}
+.priestlisttable td:first-child {padding-left: 65px;}
+
+.priestlisttable{
+	box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+
+.priestimage{
+	background-color: #fbc9c2;
+	width: 80px;
+    height: auto;
+    border-radius: 50%;
+    padding: 7px;
+	padding-bottom: 0px;
+	margin-right: 30px;
+	margin-bottom: 35px;
+}
+.priestname{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 22px;
+	color: #293D70;
+	margin-bottom: 30px;
+}
+.pr-cmn-txt{
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: #777777;
+}
+.pers-prie-banner{ background-image: url("../images/personelpriestbanner.png")}
+.priestbannerimage{
+	background-color: #fbc9c2;
+	width: 170px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px 20px;
+	padding-bottom: 0px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+.priestbannername{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+.priestbannerdesignation{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px){
+.priestimage{ margin-right: 10px;}
+.priestlisttable th:first-child {padding-left: 8px}
+.priestlisttable td:first-child {padding-left: 8px;}
+}
+@media only screen and (max-width: 992px){
+.priestimage{     
+	text-align: center;
+    margin: auto;
+    float: none!important;
+	}
+.priestname{ margin-top: 30px;}
+	.priestimagecenter{ text-align: center;
+	}
+}
+
+.priestlisttable td {padding-top:20px;}
+.blueheadingtwo{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 20px;
+color: #293D70;
+padding-top: 50px;
+}
+.per-coun-vicar-list li{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #777777;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 50px;
+padding: 5px 15px;
+margin: 15px 0;
+}
+.per-coun-vicar-list li a{
+color: #777777;
+text-decoration: none;
+}
+.minis-bluehead{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #293D70;
+text-transform: uppercase;
+}
+.minis-name{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #777777;
+}
+.mb-30{margin-bottom: 30px;}
+
+.pastpriestlisttable th:first-child {padding-left: 65px;}
+.pastpriestlisttable td:first-child {padding-left: 65px;}
+
+.pastpriestlisttable{
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+.pastpriestlisttable td {padding-top:20px;}
+.pastpriestlisttable th {text-transform: uppercase}
+@media only screen and (max-width: 1200px){
+
+.pastpriestlisttable th:first-child {padding-left: 8px}
+.pastpriestlisttable td:first-child {padding-left: 8px;}
+}
